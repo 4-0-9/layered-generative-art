@@ -1,0 +1,14 @@
+{
+  "name": "generative-art",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.33.2"
+  }
+}

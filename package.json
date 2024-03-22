@@ -9,7 +9,8 @@
     "module": "index.ts",
     "license": "MIT",
     "files": [
-        "dist"
+        "dist/*.js",
+        "dist/*.d.ts"
     ],
     "keywords": [
         "generative",
@@ -25,6 +26,10 @@
         "url": "git+https://github.com/4-0-9/layered-generative-art.git"
     },
     "bugs": "https://github.com/4-0-9/layered-generative-art/issues",
+    "scripts": {
+        "build": "bun run build.mjs",
+        "publish": "bun run build && npm publish"
+    },
     "dependencies": {
         "sharp": "^0.33.2"
     },

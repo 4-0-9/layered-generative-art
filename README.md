@@ -1,4 +1,4 @@
-# generative-art
+# layered-generative-art
 An easy-to-use library to generate random images from a set of layers.
 
 ## Installation

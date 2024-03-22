@@ -6,7 +6,7 @@ import { type Layer, type TraitOption } from './layers';
  * @param orderedLayers - The layers to choose from in ascending order
  * @returns A buffer containing the newly generated image
  */
-async function generateRandomImage(baseShapePath: string, orderedLayers: Layer[]): Promise<GenerativeArtOutput> {
+export async function generateRandomImage(baseShapePath: string, orderedLayers: Layer[]): Promise<GenerativeArtOutput> {
     const layers: OverlayOptions[] = [];
     const choices: Record<string, string> = {};
 
